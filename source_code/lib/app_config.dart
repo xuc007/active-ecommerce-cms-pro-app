@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 var this_year = DateTime.now().year.toString();
 
 class AppConfig {
-  static String copyright_text = "@ ActiveItZone " + this_year; //this shows in the splash screen
-  static String app_name = "Active eCommerce"; //this shows in the splash screen
-  static String purchase_code = ""; //enter your purchase code for the app from codecanyon
+  static String copyright_text = "@ Tesco " + this_year; //this shows in the splash screen
+  static String app_name = "Tesco"; //this shows in the splash screen
+  static String purchase_code = "1111"; //enter your purchase code for the app from codecanyon
 
   //Default language config
   static String default_language = "en";
@@ -19,7 +19,7 @@ class AppConfig {
 
   // static const DOMAIN_PATH = "192.168.6.1/folder"; //localhost
   //
-  static const DOMAIN_PATH = "domain.com"; // directly inside the public folder
+  static const DOMAIN_PATH = "tescoshoping.com"; // directly inside the public folder
 
   //do not configure these below
   static const String API_ENDPATH = "api/v2";
