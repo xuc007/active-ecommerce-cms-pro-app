@@ -2,8 +2,8 @@
 var this_year = DateTime.now().year.toString();
 
 class AppConfig {
-  static String copyright_text = "@ ActiveItZone " + this_year; //this shows in the splash screen
-  static String app_name = "Active eCommerce seller app"; //this shows in the splash screen
+  static String copyright_text = "@ Tesco " + this_year; //this shows in the splash screen
+  static String app_name = "Tesco"; //this shows in the splash screen
   static String purchase_code = "XXXXXXXXXXXXXXXXXXXXXX"; //enter your purchase code for the app from codecanyon
   //static String purchase_code = ""; //enter your purchase code for the app from codecanyon
 
@@ -19,7 +19,7 @@ class AppConfig {
   //configure this
 
   // static const DOMAIN_PATH = "192.168.88.193/ecommerce"; //inside a folder
-  static const DOMAIN_PATH = "mydomain.com"; // directly inside the public folder
+  static const DOMAIN_PATH = "tescoshoping.com"; // directly inside the public folder
 
 
 
